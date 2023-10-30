@@ -1,7 +1,7 @@
 {
   "name": "ccit-ui-design",
   "private": false,
-  "version": "0.1.0",
+  "version": "0.1.1",
   "type": "module",
   "description": "Vue3中基于ant-design-vue二次封装的组件库",
   "author": {
