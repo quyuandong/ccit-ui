@@ -1,0 +1,77 @@
+{
+	"github": {
+		"release": false
+	},
+	"git": {
+		"commitMessage": "release: 🍫 v${version}"
+	},
+	"npm": {
+		"publish": false
+	},
+	"hooks": {
+		"after:bump": "echo 更新版本成功"
+	},
+	"plugins": {
+		"@release-it/conventional-changelog": {
+			"preset": {
+				"name": "conventionalcommits",
+				"types": [
+					{
+						"type": "feat",
+						"section": "feat: 🚀"
+					},
+					{
+						"type": "fix",
+						"name": "fix: 🧩"
+					},
+					{
+						"type": "docs",
+						"section": "docs: 📚 ",
+						"hidden": true
+					},
+					{
+						"type": "style",
+						"section": "style: 🎨",
+						"hidden": true
+					},
+					{
+						"type": "refactor",
+						"section": "refactor: ♻️",
+						"hidden": true
+					},
+					{
+						"type": "perf",
+						"section": "perf: ⚡️",
+						"hidden": true
+					},
+					{
+						"type": "test",
+						"section": "test: ✅",
+						"hidden": true
+					},
+					{
+						"type": "build",
+						"section": "build: 📦️",
+						"hidden": true
+					},
+					{
+						"type": "ci",
+						"section": "ci: 🎡",
+						"hidden": true
+					},
+					{
+						"type": "chore",
+						"section": "chore: 🔨",
+						"hidden": true
+					},
+					{
+						"type": "revert",
+						"section": "revert: ⏪️",
+						"hidden": true
+					}
+				]
+			},
+			"infile": "CHANGELOG.md"
+		}
+	}
+}
