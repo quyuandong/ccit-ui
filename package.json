@@ -1,18 +1,17 @@
 {
   "name": "ccit-ui-design",
   "private": false,
-  "version": "1.1.3",
+  "version": "0.0.1",
   "type": "module",
   "description": "Vue3中基于ant-design-vue二次封装的组件库",
   "author": {
-    "name": "fanjunyang",
-    "email": "isjunyang.fan@gmail.com",
-    "url": "https://blog.fanjunyang.zone"
+    "name": "quYuanDong",
+    "email": "1984602738@qq.coom"
   },
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "https://github.com/junyangfan/jy-ui.git"
+    "url": "https://github.com/quyuandong/ccit-ui.git"
   },
   "homepage": "https://junyangfan.github.io/jy-ui",
   "bugs": "https://github.com/junyangfan/jy-ui/issues",

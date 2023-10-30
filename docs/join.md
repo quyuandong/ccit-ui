@@ -15,7 +15,7 @@ desc: '参与共建'
 # 🖥开发前准备
 拉取代码
 ```
-git clone https://github.com/junyangfan/jy-ui.git
+git clone https://github.com/quyuandong/ccit-ui.git
 ```
 
 安装依赖

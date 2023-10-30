@@ -18,6 +18,6 @@ git add -A
 git commit -m 'docs: deploy pages'
 
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
-git push -f https://github.com/junyangfan/jy-ui.git main:pages
+git push -f https://github.com/quyuandong/ccit-ui.git main:pages
 
 cd -

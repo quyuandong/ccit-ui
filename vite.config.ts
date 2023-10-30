@@ -55,8 +55,8 @@ export default defineConfig({
 		},
     lib: {
       entry: resolve(__dirname, './packages/index.ts'),
-      name: 'jy-ui',
-      fileName: (format) => `jy-ui.${format}.js`,
+      name: 'ccit-ui',
+      fileName: (format) => `ccit-ui.${format}.js`,
       // formats: ["es", "umd", "cjs"],
     },
     rollupOptions: {

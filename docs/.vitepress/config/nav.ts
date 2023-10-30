@@ -17,6 +17,6 @@ export default [
   },
   {
     text: "🍫GitHub",
-    link: "https://github.com/junyangfan/jy-ui",
+    link: "https://github.com/quyuandong/ccit-ui",
   },
 ];

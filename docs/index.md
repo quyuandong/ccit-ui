@@ -15,7 +15,7 @@ hero:
       link: /guide/install.html
     - theme: alt
       text: GitHub
-      link: https://github.com/junyangfan/jy-ui
+      link: https://github.com/quyuandong/ccit-ui
 features:
   - title: ⚡️Vue驱动
     details: 享受Vue3 + Vite + TypeScript的开发体验
