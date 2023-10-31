@@ -11,12 +11,12 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "https://github.com/quyuandong/ccit-ui.git"
+    "url": "https://quyuandong.github.io/ccit-ui/"
   },
-  "homepage": "https://junyangfan.github.io/jy-ui",
-  "bugs": "https://github.com/junyangfan/jy-ui/issues",
-  "main": "lib/jy-ui.umd.js",
-  "module": "lib/jy-ui.umd.js",
+  "homepage": "https://quyuandong.github.io/ccit-ui/",
+  "bugs": "https://github.com/quyuandong/ccit-ui/issues",
+  "main": "lib/ccit-ui.umd.js",
+  "module": "lib/ccit-ui.umd.js",
   "types": "lib/index.d.ts",
   "files": [
     "package.json",
@@ -95,7 +95,7 @@
     "ccit",
     "vue",
     "vue3",
-    "jy-ui",
+    "ccit-ui",
     "二次封装组件",
     "封装组件",
     "components"

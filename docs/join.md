@@ -32,7 +32,7 @@ yarn docs:dev
 
 ## 规范
 - 书写规范 ESlint + Prettier，注意编辑器需要安装对应插件，增强提示功能
-- 样式前缀统一使用 `jy-ui-xxx`，参考`packages` -> `utils` -> `useTools`文件中的通用函数
+- 样式前缀统一使用 `ccit-ui-xxx`，参考`packages` -> `utils` -> `useTools`文件中的通用函数
 - 组件基于 Ant Design Vue，在进行组件封装时请务必保证原有功能的完整
 
 ## 目录
