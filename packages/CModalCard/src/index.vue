@@ -1,9 +1,11 @@
 <template>
-  <div class="ccit-ui-modal-card">
-    <div :class="'card-title'">
+  <div class="demo-modal-card">
+    <div :class="title ? 'card-title' : ''">
       <slot name="title">
-        <span class="card-title-main">【{{ title }}】大范甘迪</span>
-        <span class="card-title-sub">({{ subTitle }})</span>
+        <span class="card-title-main" v-if="title">【{{ title }}】</span>
+        <span class="card-title-sub" v-if="subTitle && title">
+          ({{ subTitle }})
+        </span>
       </slot>
     </div>
     <div class="card-btn">
@@ -18,14 +20,14 @@
 export default {
   name: "CModalCard",
   props: {
-    title: { type: String, default: "色温" },
-    subTitle: { type: String, default: "asdasd" },
+    title: { type: String, default: "" },
+    subTitle: { type: String, default: "" },
   },
 };
 </script>
 
 <style lang="scss"  >
-.ccit-ui-modal-card {
+.demo-modal-card {
   width: 97%;
   margin: 15px auto;
   padding: 5px 10px 15px;

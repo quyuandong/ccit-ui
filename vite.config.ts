@@ -13,7 +13,6 @@ export default defineConfig({
   plugins: [
     vue(),
     // vueJsx(),
-    // createVuePlugin(),
     dts(),
     // vueSetupExtend(),
     viteCompression({
@@ -38,9 +37,7 @@ export default defineConfig({
 			plugins: [postcssPresetEnv()]
 		},
 		preprocessorOptions: {
-      less: {
-				modifyVars: {},
-        javascriptEnabled: true,
+      scss: {
       },
     },
 	},
@@ -59,7 +56,7 @@ export default defineConfig({
       entry: resolve(__dirname, './packages/index.ts'),
       name: 'ccit-ui',
       fileName: (format) => `ccit-ui.${format}.js`,
-      // formats: ["es", "umd", "cjs"],
+      formats: ["es", "umd", "cjs"],
     },
     rollupOptions: {
       // 请确保外部化那些你的库中不需要的依赖

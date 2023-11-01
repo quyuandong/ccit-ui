@@ -43,13 +43,14 @@
     "test:push": "yarn build && yalc push"
   },
   "dependencies": {
+    "@formily/vue": "^2.3.0",
     "@vitejs/plugin-vue2": "^2.2.0",
     "@vitepress-demo-preview/component": "^2.3.2",
     "@vitepress-demo-preview/plugin": "^1.2.2",
+    "@vue/composition-api": "^1.7.2",
     "element-ui": "^2.15.14",
     "eslint": "^8.50.0",
     "vite-plugin-compression": "^0.5.1",
-    "vite-plugin-vue2": "^2.0.3",
     "vue": "2.7.15",
     "vue-template-compiler": "^2.7.15"
   },

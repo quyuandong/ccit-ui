@@ -3,8 +3,7 @@
     <div class="head">
       <div class="main-title">{{ title }}</div>
       <div class="sub-title">
-        <!-- <slot name="subTitle">{{ aaa }}测试与英语</slot> -->
-        <slot name="type">{{ type }}</slot>
+        <slot name="type" :type="type">{{ type }}</slot>
       </div>
     </div>
     <div class="page-main">
@@ -16,11 +15,8 @@
 export default {
   name: "CPageHeader",
   props: {
-    title: { type: String, default: "我是一个测试的合同" },
-    type: {
-      type: String,
-      default: "info",
-    },
+    title: { type: String, default: "" },
+    type: { type: String, default: "" },
   },
 };
 </script>
