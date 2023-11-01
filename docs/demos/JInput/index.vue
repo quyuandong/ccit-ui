@@ -9,4 +9,4 @@ export default {
   <div>测试组件</div>
 </template>
 
-<style lang="less" scoped></style>
+<style lang="scss" scoped></style>

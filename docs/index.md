@@ -4,8 +4,8 @@ description: 文档
 layout: home
 hero:
   name: ccit-ui
-  # text: 基于 Antd Design Vue 搭建的组件库
-  tagline: 基于 Antd Design Vue 二次开发的组件库
+  # text: 网信组件库体系
+  tagline: 网信科技，前端综合性组件库体系
   image:
     src: /logo.png
     alt: VitePress
@@ -18,9 +18,13 @@ hero:
       link: https://github.com/quyuandong/ccit-ui
 features:
   - title: ⚡️Vue驱动
-    details: 享受Vue3 + Vite + TypeScript的开发体验
+    details: 享受Vue + Vite + TypeScript的开发体验
+
   - title: 📦基础组件
-    details: 基于 Antd Design Vue 组件二次开发，让组件更适合业务
+    details: 基于 Element UI 组件二次开发，让组件更适合业务
+
   - title: 💡效率
     details: 提交项目迭代效率，让开发者更关注逻辑层
+
+
 ---

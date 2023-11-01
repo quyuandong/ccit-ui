@@ -43,7 +43,7 @@ import { JButton } from '@junyang/jy-ui'
   <j-button>按钮</j-button>
 </template>
 
-<style lang="less" scoped></style>
+<style lang="scss" scoped></style>
 ```
 
 

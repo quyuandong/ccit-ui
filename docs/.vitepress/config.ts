@@ -6,7 +6,7 @@ import { componentPreview, containerPreview } from '@vitepress-demo-preview/plug
 export default {
   lang: 'zh-CN',
   title: 'ccit-ui',
-  description: '基于 Antd Design Vue 组件二次开发的组件库',
+  description: '基于 element UI 组件二次开发的组件库',
   base: '/ccit-ui/',
   themeConfig: {
     nav,
@@ -41,7 +41,7 @@ export default {
 		},
 		css: {
 			preprocessorOptions: {
-				less: {
+				scss: {
 					javascriptEnabled: true,
 				},
 			},

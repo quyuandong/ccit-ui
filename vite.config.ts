@@ -1,19 +1,21 @@
 import { defineConfig } from 'vite'
 import { resolve } from 'path'
-import vue from '@vitejs/plugin-vue'
-import vueJsx from '@vitejs/plugin-vue-jsx'
-import vueSetupExtend from 'vite-plugin-vue-setup-extend' // 设置name属性
+import vue from '@vitejs/plugin-vue2'
+// import vueJsx from '@vitejs/plugin-vue-jsx'
+// import vueSetupExtend from 'vite-plugin-vue-setup-extend' // 设置name属性
 import viteCompression from 'vite-plugin-compression' // 静态资源压缩
 import dts from 'vite-plugin-dts' // 类型声明文件
 import postcssPresetEnv from 'postcss-preset-env'	// css样式兼容处理
+// import { createVuePlugin } from 'vite-plugin-vue2'
 
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [
     vue(),
-    vueJsx(),
+    // vueJsx(),
+    // createVuePlugin(),
     dts(),
-    vueSetupExtend(),
+    // vueSetupExtend(),
     viteCompression({
       verbose: true,
       disable: false, // 不禁用压缩

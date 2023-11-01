@@ -1,8 +1,8 @@
-import { App } from 'vue';
-import JButton from './src/index.vue';
+import JButton from "./src/index.vue";
 
-JButton.install = function (app: App) {
-  app.component(JButton.name, JButton);
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+JButton.install = function (Vue: any) {
+  Vue.component(JButton.name, JButton);
 };
 
 export default JButton;
